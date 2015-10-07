@@ -1,0 +1,35 @@
+{
+  "name": "scaffold-gulpfile",
+  "description": "Gulpfile scaffold to add a gulpfile to your project.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb",
+  "repository": "https://github.com/doowb/scaffold-gulpfile",
+  "authors": [
+    {
+      "author": "Brian Woodward",
+      "homepage": "https://github.com/doowb",
+      "email": "brian.woodward@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "targets": {
+    "gulpfile": {
+      "isScaffold": true,
+      "files": [
+        {
+          "src": [
+            "gulpfile.js"
+          ],
+          "dest": "./",
+          "options": {},
+          "name": "scaffold"
+        }
+      ],
+      "options": {},
+      "key": "gulpfile"
+    }
+  },
+  "config": {},
+  "isMetadata": true
+}
